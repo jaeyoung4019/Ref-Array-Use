@@ -8,69 +8,69 @@
 
 ```ts
 <li class="card_item type_pf">
-                                        <div class="item_hd">
-                                            <div class="item_chk">
-                                                <div class="cus_inp_box chk_inp">
-                                                    <label for="list_item_chk2" class="label_box"><span class="sound_only">item_check</span>
-                                                        <input type="checkbox" id="list_item_chk2" name="list_item_chking">
-                                                        <span class="inp_custom"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="flex_wrap">
-                                                <div class="pf_img_box"><img src="../../resources/img/icon/user_thumb.png" alt=""></div>
-                                                <div class="info_subject">
-                                                    <div class="subject_line"><span class="tit user_name">test_dev</span></div>
-                                                    <div class="info_type">Guest</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item_bd">
-                                            <div class="drop_box">
-                                                <div class="drop_btn"><span class="btn_txt">Collaborator</span><i class="icon arrow arrow_d"></i></div>
-                                                <div class="drop_menu">
-                                                    <ul class="drop_list">
-                                                        <li class="drop_item"><a href="#none">Maintainer</a></li>
-                                                        <li class="drop_item"><a href="#none">Collaborator</a></li>
-                                                        <li class="drop_item"><a href="#none">Guest</a></li>
-                                                        <li class="drop_item warning"><a href="#none">Drop member</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="card_item type_pf">
-                                        <div class="item_hd">
-                                            <div class="item_chk">
-                                                <div class="cus_inp_box chk_inp">
-                                                    <label for="list_item_chk3" class="label_box"><span class="sound_only">item_check</span>
-                                                        <input type="checkbox" id="list_item_chk3" name="list_item_chking">
-                                                        <span class="inp_custom"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="flex_wrap">
-                                                <div class="pf_img_box"><img src="../../resources/img/icon/user_thumb.png" alt=""></div>
-                                                <div class="info_subject">
-                                                    <div class="subject_line"><span class="tit user_name">test_dev</span></div>
-                                                    <div class="info_type">Guest</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item_bd">
-                                            <div class="drop_box">
-                                                <div class="drop_btn"><span class="btn_txt">Collaborator</span><i class="icon arrow arrow_d"></i></div>
-                                                <div class="drop_menu">
-                                                    <ul class="drop_list">
-                                                        <li class="drop_item"><a href="#none">Maintainer</a></li>
-                                                        <li class="drop_item"><a href="#none">Collaborator</a></li>
-                                                        <li class="drop_item"><a href="#none">Guest</a></li>
-                                                        <li class="drop_item warning"><a href="#none">Drop member</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+    <div class="item_hd">
+        <div class="item_chk">
+            <div class="cus_inp_box chk_inp">
+                <label for="list_item_chk2" class="label_box"><span class="sound_only">item_check</span>
+                    <input type="checkbox" id="list_item_chk2" name="list_item_chking">
+                    <span class="inp_custom"></span>
+                </label>
+            </div>
+        </div>
+        <div class="flex_wrap">
+            <div class="pf_img_box"><img src="../../resources/img/icon/user_thumb.png" alt=""></div>
+            <div class="info_subject">
+                <div class="subject_line"><span class="tit user_name">test_dev</span></div>
+                <div class="info_type">Guest</div>
+            </div>
+        </div>
+    </div>
+    <div class="item_bd">
+        <div class="drop_box">
+            <div class="drop_btn"><span class="btn_txt">Collaborator</span><i class="icon arrow arrow_d"></i></div>
+            <div class="drop_menu">
+                <ul class="drop_list">
+                    <li class="drop_item"><a href="#none">Maintainer</a></li>
+                    <li class="drop_item"><a href="#none">Collaborator</a></li>
+                    <li class="drop_item"><a href="#none">Guest</a></li>
+                    <li class="drop_item warning"><a href="#none">Drop member</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>
+<li class="card_item type_pf">
+    <div class="item_hd">
+        <div class="item_chk">
+            <div class="cus_inp_box chk_inp">
+                <label for="list_item_chk3" class="label_box"><span class="sound_only">item_check</span>
+                    <input type="checkbox" id="list_item_chk3" name="list_item_chking">
+                    <span class="inp_custom"></span>
+                </label>
+            </div>
+        </div>
+        <div class="flex_wrap">
+            <div class="pf_img_box"><img src="../../resources/img/icon/user_thumb.png" alt=""></div>
+            <div class="info_subject">
+                <div class="subject_line"><span class="tit user_name">test_dev</span></div>
+                <div class="info_type">Guest</div>
+            </div>
+        </div>
+    </div>
+    <div class="item_bd">
+        <div class="drop_box">
+            <div class="drop_btn"><span class="btn_txt">Collaborator</span><i class="icon arrow arrow_d"></i></div>
+            <div class="drop_menu">
+                <ul class="drop_list">
+                    <li class="drop_item"><a href="#none">Maintainer</a></li>
+                    <li class="drop_item"><a href="#none">Collaborator</a></li>
+                    <li class="drop_item"><a href="#none">Guest</a></li>
+                    <li class="drop_item warning"><a href="#none">Drop member</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>
 
 ```
 
