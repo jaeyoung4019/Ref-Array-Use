@@ -135,11 +135,11 @@
 
 리스트로 온다면 ref 를 계속 선언해서 사용해야할 것입니다. 그래서 배열에 담아놓고 사용하는 방법을 사용해야 하는데, 이런 식으로 el 을 넣어줌으로 써 해결할 수 있습니다.
 
-```ts
-               <div className="drop_box" ref={(el) => dropBoxRef.current[index] = el}>
-                                        <div className="drop_btn" onClick={ (e) => dropBtnOnClick( e , index)}>
-                                            <span className="btn_txt">{value?.role_nm}</span>
-                                            <i className="icon arrow arrow_d"></i>
-                                        </div>
-                                        <div className="drop_menu" ref={(el) => dropMenuRef.current[index] = el}>
+```html
+<div className="drop_box" ref={(el) => dropBoxRef.current[index] = el}>
+    <div className="drop_btn" onClick={ (e) => dropBtnOnClick( e , index)}>
+        <span className="btn_txt">{value?.role_nm}</span>
+        <i className="icon arrow arrow_d"></i>
+    </div>
+    <div className="drop_menu" ref={(el) => dropMenuRef.current[index] = el}>
 ```
